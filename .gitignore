@@ -1,0 +1,24 @@
+# Local project data and IPC must never be published.
+/ipc/
+/exports/
+/backups/
+*.vpp
+*.vpp.bak*
+*.docx
+*.pdf
+*.png
+*.jpg
+
+# Build output and machine-specific configuration.
+/jobs/
+/plugin/classes/
+bridge.properties
+.compile-*/
+*.class
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.DS_Store
+.idea/

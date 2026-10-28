@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="local.codex.bridge" name="Local OpenAPI Bridge" provider="Local" class="local.codex.Bridge">
+  <runtime><library path="classes" relativePath="true"/></runtime>
+</plugin>
